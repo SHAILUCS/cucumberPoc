@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 public class StepDefinitions {
     @Given("^I am on the \"([^\"]*)\" page on URL \"([^\"]*)\"$")
     public void i_am_on_the_page_on_URL(String arg1, String arg2) throws Throwable {
-    	System.out.println("i_am_on_the_page_on_URL"+arg1+arg2);
+    	System.out.println("StepDefinitions  >> i_am_on_the_page_on_URL"+arg1+arg2);
         // Write code here that turns the phrase above into concrete actions
        // throw new PendingException();
     }
